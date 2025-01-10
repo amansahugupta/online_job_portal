@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.invalid-feedback {
+    display: none;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:invalid + .invalid-feedback {
+    display: block;
+}
+
+@media (max-width: 576px) {
+    .card {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
